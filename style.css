@@ -1,1 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
+body {
+  background: #f4f4f4;
+  color: #222;
+}
+
+/* Header */
+.top {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Nav */
+nav {
+  background: #e65c00;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+/* Hero */
+.hero {
+  background: url('https://images.unsplash.com/photo-1590479773265-7464e5d48118') center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box {
+  background: rgba(0,0,0,0.65);
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero-box h2 {
+  font-size: 36px;
+}
+
+.hero-box button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #e65c00;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Proof */
+.proof {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background: #fff3e6;
+  text-align: center;
+}
+
+/* Services */
+#services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* About */
+.about {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* CTA */
+.cta {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.cta button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #e65c00;
+  border: none;
+  color: white;
+}
+
+/* Contact */
+#contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background: #e65c00;
+  color: white;
+  border: none;
+  padding: 12px;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
