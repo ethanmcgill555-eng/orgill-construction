@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orgill Construction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<header class="top">
+  <h1>Orgill Construction</h1>
+  <p>Built Solid. No Shortcuts.</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-box">
+    <h2>Need Work Done Right the First Time?</h2>
+    <p>We handle renovations, builds, repairs — whatever you’ve got.</p>
+    <button onclick="scrollToContact()">Get a Quote</button>
+  </div>
+</section>
+
+<section class="proof">
+  <div>
+    <h3>✔ Shows Up</h3>
+    <p>No chasing contractors. We answer and we show up.</p>
+  </div>
+  <div>
+    <h3>✔ Solid Work</h3>
+    <p>We don’t cut corners. We build things that last.</p>
+  </div>
+  <div>
+    <h3>✔ Local Crew</h3>
+    <p>Peterborough-based and proud of it.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">🏠 Renovations</div>
+    <div class="card">🔨 Framing</div>
+    <div class="card">🪵 Decks & Fences</div>
+    <div class="card">🧱 Additions</div>
+    <div class="card">🛠 Repairs</div>
+    <div class="card">🏗 General Contracting</div>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About</h2>
+  <p>
+    We’re a local construction crew that takes pride in doing things properly.
+    No fluff, no excuses — just honest work and solid results.
+  </p>
+  <p>
+    Whether it’s a small job or a full project, we treat it like it matters — because it does.
+  </p>
+</section>
+
+<section class="cta">
+  <h2>Got Something You Need Built?</h2>
+  <p>Give us a call or send a message — we’ll take a look.</p>
+  <button onclick="scrollToContact()">Contact Us</button>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+
+  <div class="info">
+    <p>📍 Peterborough, Ontario</p>
+    <p>📞 (705) 313-5730</p>
+  </div>
+
+  <form id="contactForm">
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="What do you need done?" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="formMessage"></p>
+</section>
+
+<footer>
+  <p>© 2026 Orgill Construction</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
